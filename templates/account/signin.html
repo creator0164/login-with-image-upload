@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}
+    Sign In - {{block.super}}
+{% endblock %}
+{% block content %}
+{% include 'messages.html' %}
+    <form action="#" method="post">
+        {% csrf_token %}
+        <input type="text" name="username" placeholder="Username" required /> <br>
+        <input type="password" name="password" placeholder="Password" required /> <br>
+        <a href="/home/signup/">create account</a> <br>
+        <button type="submit">Sign In</button>
+    </form>
+{% endblock %}

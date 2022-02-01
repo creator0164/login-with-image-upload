@@ -1,0 +1,25 @@
+{
+  "folders": [
+	{
+		"path": "..\\..\\bootcamp"
+	},
+	{
+		"path": "..\\..\\Djegi_login"
+	},
+	{
+		"path": "c:\\Users\\GOZON\\OneDrive\\Desktop\\GFG"
+	},
+	{
+		"path": "..\\..\\Gozon Store"
+	},
+	{
+		"path": "..\\..\\portfolio"
+	},
+	{
+		"path": ".."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Project"
+  }
+}

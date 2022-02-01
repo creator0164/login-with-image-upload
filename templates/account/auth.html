@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}
+    Authentication - {{block.super}}
+{% endblock %}
+{% block content %}
+{% include 'messages.html' %}
+<h1>Verification code has been send to {{username}}</h1>
+    <form action="" method="post">
+        {% csrf_token %}
+        <input type="text" name="otp" placeholder="OTP" required />
+        <button type="submit">Verify</button>
+        <a href="/resend/{{username}}">resend</a>
+    </form>
+{% endblock %}
